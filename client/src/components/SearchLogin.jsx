@@ -10,9 +10,6 @@ const SearchLogin = (props) => (
             <Link to='/new-listing'>
               <img className="ctabuttons float-right" src="img/post.png" />
             </Link>
-            <Link to="/sign-in">
-              <img className="ctabuttons float-right" src="img/login.png" />
-            </Link>
           </div>
         </div>
       </div>
