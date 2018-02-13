@@ -5,8 +5,8 @@ mongoose.connect(url, { useMongoClient: true });
 
 let db = mongoose.connection;
 
-db.on('error', () => {
-  console.error('Connection error!');
+db.on('error', (err) => {
+  console.error('Connection error!', err);
 });
 
 db.once('open', () => {
