@@ -1,9 +1,9 @@
+require('dotenv').config();
 const bodyParser = require('body-parser');
 const express = require('express');
 const db = require('../database/index');
 const mailer = require('../mailer/mailer');
 const aws = require('aws-sdk');
-require('dotenv').config()
 
 const port = process.env.PORT || 8080;
 
